@@ -25,12 +25,8 @@ cfg.test_batch_size = 100
 cfg.epochs = 5
 cfg.precision = 8
 
-cfg.data_dir = (
-    "/gpfs/u/scratch/RAIM/RAIMrmnb/energy-efficient-resilience-data-dir"
-)
-cfg.save_dir = (
-    "/gpfs/u/barn/RAIM/RAIMrmnb/energy-efficient-resilience-work-dir"
-)
+cfg.data_dir = "/tmp/energy-efficient-resilience-data-dir"
+cfg.save_dir = "/tmp/energy-efficient-resilience-work-dir"
 
 cfg.temperature = 1
 cfg.channels = 3
